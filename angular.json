@@ -24,9 +24,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              
+              "src/assets/vendors/ti-icons/css/themify-icons.css",
+              "src/assets/vendors/base/vendor.bundle.base.css",
+              "src/assets/css/style.css",
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/base/vendor.bundle.base.js",
+              "src/assets/vendors/chart.js/Chart.min.js",
+              "src/assets/js/off-canvas.js",
+              "src/assets/js/hoverable-collapse.js",
+              "src/assets/js/template.js",
+              "src/assets/js/todolist.js"          
+            ] 
           },
           "configurations": {
             "production": {
@@ -89,9 +105,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              
+              "src/assets/vendors/ti-icons/css/themify-icons.css",
+              "src/assets/vendors/base/vendor.bundle.base.css",
+              "src/assets/css/style.css",
+
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/base/vendor.bundle.base.js",
+              "src/assets/vendors/chart.js/Chart.min.js",
+              "src/assets/js/off-canvas.js",
+              "src/assets/js/hoverable-collapse.js",
+              "src/assets/js/template.js",
+              "src/assets/js/todolist.js"          
+            ]
           }
         },
         "lint": {
